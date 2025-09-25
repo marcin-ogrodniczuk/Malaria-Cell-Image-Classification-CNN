@@ -9,6 +9,12 @@ This project implements a deep-learning pipeline to classify microscope images o
 - Image processing: Images were resized to 128×128, converted to float and rescaled to [0, 1].
 - Augmentation: On-the-fly augmentation was applied using ImageDataGenerator to increase robustness: small rotations, width/height shifts, shear, zoom, horizontal flip, and a brightness range to simulate staining variation. An 80/20 train/validation split was used.
 
+### Key Tools and Concepts
+- TensorFlow / Keras for model building and training
+- MobileNetV2 for transfer learning and fine-tuning
+- ImageDataGenerator for normalization and augmentation
+- Matplotlib / scikit-learn for visualization and evaluation
+  
 ### Model Architecture & Training
 - Backbone: MobileNetV2 pretrained on ImageNet (top layers removed).
 - Custom head: GlobalAveragePooling2D → Dense(128, relu) → Dropout(0.5) → Dense(1, sigmoid) for binary classification.
