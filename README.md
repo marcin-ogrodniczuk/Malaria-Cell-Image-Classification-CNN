@@ -4,7 +4,7 @@
 This project implements a deep-learning pipeline to classify microscope images of red blood cells as Parasitized (malaria-infected) or Uninfected. The solution demonstrates how transfer learning can be applied to biomedical image classification tasks with a relatively small, real-world dataset.
 
 ### Dataset & Preprocessing
-- Dataset: Cell Images for Malaria Detection (public dataset of individual blood-cell images).
+- Dataset: Cell Images for Malaria Detection ([Cell Images for Detecting Malaria (Kaggle](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria/data)).
 - Directory structure: cell_images/Parasitized and cell_images/Uninfected. Hidden/system files were removed and the folder structure was validated before training.
 - Image processing: Images were resized to 128×128, converted to float and rescaled to [0, 1].
 - Augmentation: On-the-fly augmentation was applied using ImageDataGenerator to increase robustness: small rotations, width/height shifts, shear, zoom, horizontal flip, and a brightness range to simulate staining variation. An 80/20 train/validation split was used.
