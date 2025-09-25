@@ -36,7 +36,7 @@ This project implements a deep-learning pipeline to classify microscope images o
 ### Interpretability
 - Grad-CAM / saliency maps were used to visualize regions of input images that contributed most to model predictions, helping confirm that the network focuses on parasite-like structures rather than irrelevant background artifacts.
 
-### Why this matters
+### Why this project matters
 Accurate automated screening tools can provide faster, more scalable diagnostic support, particularly in resource-limited regions where expert microscopy is scarce. This project shows how pretrained CNNs can be adapted efficiently to biomedical tasks, enabling high performance with modest data and compute through transfer learning and careful preprocessing.
 
 ### Next steps / extensions
