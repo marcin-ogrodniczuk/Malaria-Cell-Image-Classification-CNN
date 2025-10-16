@@ -1,4 +1,4 @@
-# Malaria-Cell-Image-Classification-CNN
+# Malaria_Cell_Image_Classification_CNN
 
 ### Project Description
 This project implements a deep-learning pipeline to classify microscope images of red blood cells as Parasitized (malaria-infected) or Uninfected. This CNN demonstrates how transfer learning can be applied to biomedical image classification tasks with a relatively small, real-world dataset.
